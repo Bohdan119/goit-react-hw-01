@@ -1,27 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Profile from "./Profile";
+import userData from "../userData.json";
+import friends from "../friends.json";
+import FriendList from "./Friends";
 
-const Product = () => {
+const App = () => {
   return (
-    <div>
-      <h2>Cookies</h2>
-			<p>Price: 999 credits</p>
-    </div>
+    <>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.image}
+        stats={userData.stats}
+      />
+      <FriendList friends={friends} />
+    </>
   );
 };
 
-export default function App() {
-  return (
-    <div>
-      <h1>Products</h1>
-
-      <Product />
-      <Product />
-      <Product />
-    </div>
-  );
-}
-
-export default Product;
+export default App;
