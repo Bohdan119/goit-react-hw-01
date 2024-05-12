@@ -10,7 +10,7 @@ const FriendList = ({ friends }) => {
               {friend.isOnline ? (
                 <span className="online">Online</span>
               ) : (
-                <span className="offline">Ofline</span>
+                <span className="offline">Offline</span>
               )}
             </p>
           </div>
