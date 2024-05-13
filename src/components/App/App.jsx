@@ -8,6 +8,8 @@ import FriendList from "../FriendList/FriendList";
 import transactions from "../Transaction/transaction.json";
 import TransactionHistory from "../Transaction/Transaction";
 
+import './App.css';
+
 const App = () => {
   return (
     <>
