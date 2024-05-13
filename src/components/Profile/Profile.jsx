@@ -1,4 +1,4 @@
-import css from "./Profile.module.css"; 
+import css from "./Profile/Profile.module.css"; 
 
 const Profile = ({ username, tag, location, image, stats }) => {
   const { followers, views, likes } = stats;
