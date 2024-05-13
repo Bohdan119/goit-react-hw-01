@@ -1,3 +1,5 @@
+
+
 const Profile = ({ username, tag, location, image, stats }) => {
   const { followers, views, likes } = stats;
   return (

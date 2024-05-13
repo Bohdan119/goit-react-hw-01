@@ -1,0 +1,30 @@
+.friends-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* list-style: none; */
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.friends-item {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 16px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.friend-paragraph {
+    margin-top: 0px;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}

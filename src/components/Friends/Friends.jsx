@@ -1,3 +1,5 @@
+
+
 const FriendList = ({ friends }) => {
   return (
     <ul className="friends-list">
