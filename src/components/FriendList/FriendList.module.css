@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    /* list-style: none; */
     border: 1px solid black;
     border-radius: 20px;
     padding: 25px;
